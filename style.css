@@ -1,6 +1,5 @@
 .div-main {
-  width: 1440px;
-  height: 900px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,8 +9,8 @@
 }
 
 .div-container {
-  width: 450px;
-  height: 697px;
+  width: 400px;
+  height: 550px;
   border-radius: 20px;
   background-color: #ffffff;
 }
@@ -20,17 +19,9 @@
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.div-elements {
-    width: 450px;
-    height: 477px;
-    /* text-align: center;
-    display: inline-block;
-    align-items: center;
-    justify-content: space-around; */
-}
 
 .heading-1 {
-    padding-top: 48px;
+    padding-top: 20px;
     color: #1F2E55;
     font-size: 28px;
     font-weight: 900;
@@ -48,24 +39,24 @@
     /* justify-content: center; */
     margin-right: 54px;
     margin-left: 54px;
-    margin-top: 17px;
+    margin-top: 10px;
     font-family: 'Baloo 2', cursive;
 }
 .price-box {
     width: 354px;
-    height: 98px;
+    height: 70px;
     border-radius: 11px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: #F7F9FF;
 }
 
 .box-payment {
     width: 354px;
-    height: 50px;
+    height: 40px;
     border-radius: 11px;
     margin: 0 auto;
-    margin-top: 32px;
+    margin-top: 15px;
     margin-bottom: 32px;
     display: flex;
     align-items: center;
